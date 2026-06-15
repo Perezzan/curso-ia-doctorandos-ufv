@@ -44,12 +44,12 @@ window.PROMPTS = [
     "materials": [
       {
         "title": "Imagen original de notas",
-        "url": "docs/actividad-1-notas-originales.jpg",
+        "url": "actividad-1-notas-originales.jpg",
         "type": "imagen"
       },
       {
         "title": "Prompts de la actividad 2 (.docx)",
-        "url": "docs/actividad-1-documento-a-partir-de-notas-prompts.docx",
+        "url": "actividad-1-documento-a-partir-de-notas-prompts.docx",
         "type": "docx"
       }
     ]
@@ -64,12 +64,12 @@ window.PROMPTS = [
     "materials": [
       {
         "title": "Paper ficticio para la actividad (.pdf)",
-        "url": "docs/actividad-2-paper-ficticio-pnas.pdf",
+        "url": "actividad-2-paper-ficticio-pnas.pdf",
         "type": "pdf"
       },
       {
         "title": "Respuesta editorial simulada PNAS (.pdf)",
-        "url": "docs/actividad-2-respuesta-editorial-simulada-pnas.pdf",
+        "url": "actividad-2-respuesta-editorial-simulada-pnas.pdf",
         "type": "pdf"
       }
     ],
@@ -85,7 +85,7 @@ window.PROMPTS = [
     "materials": [
       {
         "title": "Prompt maestro Deep Research física de membranas (.docx)",
-        "url": "docs/actividad-3-deep-research-fisica-membranas.docx",
+        "url": "actividad-3-deep-research-fisica-membranas.docx",
         "type": "docx"
       }
     ]
@@ -101,7 +101,7 @@ window.PROMPTS = [
     "materials": [
       {
         "title": "Excel ficticio de datos de doctorandos (.xlsx)",
-        "url": "docs/actividad-5-datos-doctorandos-investigacion.xlsx",
+        "url": "actividad-5-datos-doctorandos-investigacion.xlsx",
         "type": "xlsx"
       }
     ]
@@ -126,7 +126,7 @@ window.PROMPTS = [
     "materials": [
       {
         "title": "Gráfico inicial para analizar",
-        "url": "docs/actividad-6-grafico-productividad-ia.svg",
+        "url": "actividad-6-grafico-productividad-ia.svg",
         "type": "imagen"
       }
     ]
@@ -142,17 +142,17 @@ window.PROMPTS = [
     "materials": [
       {
         "title": "Plan de trabajo (.pdf)",
-        "url": "docs/proyecto-publicacion-plan-de-trabajo.pdf",
+        "url": "proyecto-publicacion-plan-de-trabajo.pdf",
         "type": "pdf"
       },
       {
         "title": "Normas editorial (.pdf)",
-        "url": "docs/proyecto-publicacion-normas-editorial.pdf",
+        "url": "proyecto-publicacion-normas-editorial.pdf",
         "type": "pdf"
       },
       {
         "title": "Último paper (.pdf)",
-        "url": "docs/proyecto-publicacion-ultimo-paper.pdf",
+        "url": "proyecto-publicacion-ultimo-paper.pdf",
         "type": "pdf"
       }
     ]
