@@ -201,5 +201,31 @@ window.PROMPTS = [
         "type": "pendiente"
       }
     ]
+  },
+
+  {
+    "title": "Prueba",
+    "category": "Pruebas",
+    "description": "Marco de prueba para comprobar que GitHub Pages sirve correctamente PDF, PPTX y texto.",
+    "prompt": "Este es un marco de prueba. Sirve para verificar que los materiales se cargan y descargan correctamente desde GitHub Pages.",
+    "label": "prueba",
+    "number": "14",
+    "materials": [
+      {
+        "title": "Prueba (.pdf)",
+        "url": "prueba.pdf",
+        "type": "pdf"
+      },
+      {
+        "title": "Prueba 1 (.pptx)",
+        "url": "prueba-1.pptx",
+        "type": "ppt"
+      },
+      {
+        "title": "Texto básico (.txt)",
+        "url": "prueba.txt",
+        "type": "texto"
+      }
+    ]
   }
 ];
