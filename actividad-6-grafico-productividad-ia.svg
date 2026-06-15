@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#fbfcff"/>
+  <text x="600" y="42" text-anchor="middle" font-family="Arial" font-size="26" font-weight="bold" fill="#172033">Evolución ficticia del uso de IA y productividad doctoral</text>
+  <text x="600" y="72" text-anchor="middle" font-family="Arial" font-size="15" fill="#5b6473">Datos ficticios 2018–2026 · Doctorandos de ciencias experimentales, biomédicas y salud</text>
+
+  <!-- plot area -->
+  <rect x="105" y="118" width="780" height="440" fill="#fff" stroke="#d9dee8"/>
+
+  <!-- grid left axis 0-100 -->
+  <g stroke="#e6eaf1" stroke-width="1">
+    <line x1="105" y1="558" x2="885" y2="558"/><line x1="105" y1="470" x2="885" y2="470"/><line x1="105" y1="382" x2="885" y2="382"/><line x1="105" y1="294" x2="885" y2="294"/><line x1="105" y1="206" x2="885" y2="206"/><line x1="105" y1="118" x2="885" y2="118"/>
+  </g>
+  <g font-family="Arial" font-size="13" fill="#244d73" text-anchor="end">
+    <text x="94" y="563">0</text><text x="94" y="475">20</text><text x="94" y="387">40</text><text x="94" y="299">60</text><text x="94" y="211">80</text><text x="94" y="123">100</text>
+  </g>
+  <g font-family="Arial" font-size="13" fill="#a35625" text-anchor="start">
+    <text x="896" y="563">0</text><text x="896" y="475">1</text><text x="896" y="387">2</text><text x="896" y="299">3</text><text x="896" y="211">4</text><text x="896" y="123">5</text>
+  </g>
+
+  <!-- axes -->
+  <line x1="105" y1="558" x2="885" y2="558" stroke="#2e3440" stroke-width="2"/>
+  <line x1="105" y1="118" x2="105" y2="558" stroke="#1f77b4" stroke-width="3"/>
+  <line x1="885" y1="118" x2="885" y2="558" stroke="#d87b35" stroke-width="3"/>
+
+  <!-- year labels -->
+  <g font-family="Arial" font-size="13" fill="#333" text-anchor="middle">
+    <text x="123" y="584">2018</text><text x="220" y="584">2019</text><text x="318" y="584">2020</text><text x="415" y="584">2021</text><text x="513" y="584">2022</text><text x="610" y="584">2023</text><text x="708" y="584">2024</text><text x="805" y="584">2025</text><text x="867" y="584">2026</text>
+  </g>
+
+  <!-- series: x 123,220,318,415,513,610,708,805,867. left y=558-v*4.4; right y=558-v*88 -->
+  <polyline points="123,505.2 220,478.8 318,443.6 415,408.4 513,360 610,302.8 708,245.6 805,210.4 867,188.4" fill="none" stroke="#1f77b4" stroke-width="4"/>
+  <polyline points="123,417.2 220,399.6 318,382 415,373.2 513,346.8 610,311.6 708,285.2 805,250 867,232.4" fill="none" stroke="#d62728" stroke-width="4"/>
+  <polyline points="123,258.8 220,250 318,232.4 415,241.2 513,254.4 610,267.6 708,280.8 805,289.6 867,294" fill="none" stroke="#2ca02c" stroke-width="4" stroke-dasharray="10 8"/>
+  <polyline points="123,540.4 220,531.6 318,514 415,487.6 513,452.4 610,404 708,346.8 805,285.2 867,236.8" fill="none" stroke="#6f42c1" stroke-width="4" stroke-dasharray="2 7" stroke-linecap="round"/>
+
+  <!-- markers AI -->
+  <g fill="#1f77b4"><circle cx="123" cy="505.2" r="4.5"/><circle cx="220" cy="478.8" r="4.5"/><circle cx="318" cy="443.6" r="4.5"/><circle cx="415" cy="408.4" r="4.5"/><circle cx="513" cy="360" r="4.5"/><circle cx="610" cy="302.8" r="4.5"/><circle cx="708" cy="245.6" r="4.5"/><circle cx="805" cy="210.4" r="4.5"/><circle cx="867" cy="188.4" r="4.5"/></g>
+
+  <!-- labels -->
+  <text x="34" y="338" transform="rotate(-90 34,338)" font-family="Arial" font-size="16" fill="#1f77b4" text-anchor="middle" font-weight="bold">EJE IZQUIERDO: porcentaje / índice 0–100</text>
+  <text x="966" y="338" transform="rotate(90 966,338)" font-family="Arial" font-size="16" fill="#b55e25" text-anchor="middle" font-weight="bold">EJE DERECHO: productividad media anual</text>
+  <text x="500" y="625" font-family="Arial" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">Año</text>
+
+  <!-- side legend outside plot -->
+  <rect x="995" y="142" width="178" height="286" fill="#ffffff" stroke="#c9ced8" rx="10"/>
+  <text x="1084" y="168" font-family="Arial" font-size="15" font-weight="bold" fill="#172033" text-anchor="middle">Leyenda</text>
+  <text x="1013" y="195" font-family="Arial" font-size="12" font-weight="bold" fill="#1f77b4">Usan eje izquierdo</text>
+  <line x1="1014" y1="218" x2="1064" y2="218" stroke="#1f77b4" stroke-width="4"/><text x="1073" y="223" font-family="Arial" font-size="12" fill="#222">Uso habitual</text><text x="1073" y="238" font-family="Arial" font-size="12" fill="#222">de IA (%)</text>
+  <line x1="1014" y1="263" x2="1064" y2="263" stroke="#2ca02c" stroke-width="4" stroke-dasharray="10 8"/><text x="1073" y="268" font-family="Arial" font-size="12" fill="#222">Estrés medio</text><text x="1073" y="283" font-family="Arial" font-size="12" fill="#222">×10</text>
+  <line x1="1014" y1="308" x2="1064" y2="308" stroke="#6f42c1" stroke-width="4" stroke-dasharray="2 7" stroke-linecap="round"/><text x="1073" y="313" font-family="Arial" font-size="12" fill="#222">Trabajos que</text><text x="1073" y="328" font-family="Arial" font-size="12" fill="#222">mencionan IA (%)</text>
+  <text x="1013" y="363" font-family="Arial" font-size="12" font-weight="bold" fill="#b55e25">Usa eje derecho</text>
+  <line x1="1014" y1="386" x2="1064" y2="386" stroke="#d62728" stroke-width="4"/><text x="1073" y="391" font-family="Arial" font-size="12" fill="#222">Productividad</text><text x="1073" y="406" font-family="Arial" font-size="12" fill="#222">media anual</text>
+
+  <!-- callout -->
+  <rect x="105" y="648" width="780" height="55" rx="10" fill="#eef5ff" stroke="#c9def5"/>
+  <text x="125" y="672" font-family="Arial" font-size="13" fill="#244d73">Cómo leerlo: las líneas azul, verde y morada se interpretan con el eje izquierdo. La línea roja se interpreta con el eje derecho.</text>
+  <text x="125" y="692" font-family="Arial" font-size="13" fill="#697386">Gráfico ficticio para práctica: varias series, doble eje y escalas diferentes. No usar como dato real.</text>
+</svg>
