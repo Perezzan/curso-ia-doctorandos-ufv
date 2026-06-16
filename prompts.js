@@ -132,27 +132,32 @@ window.PROMPTS = [
     ]
   },
   {
-    "title": "Proyecto: Publicación — instrucciones y memoria",
+    "title": "Proyecto: Congreso BioFrontiers2026",
     "category": "Proyectos en ChatGPT",
-    "description": "Ejemplo para explicar cómo crear un Proyecto en ChatGPT con dos textos copiables: Instrucciones y Memoria. Los tres documentos quedan como fuentes.",
-    "prompt": "Prompt 1 — Instrucciones\n\nProyecto: Publicación\n\nDescripción:\nEste proyecto está dedicado a preparar una publicación académica sobre el uso de la inteligencia artificial generativa en investigación doctoral, con especial atención a ciencias experimentales, biomédicas y ciencias de la salud.\n\nQuiero que actúes como asistente académico experto en:\n- inteligencia artificial generativa,\n- metodología de investigación,\n- escritura científica,\n- revisión bibliográfica,\n- pensamiento crítico,\n- ética y uso responsable de IA.\n\nForma de trabajar:\n- Responde siempre en español claro y académico.\n- Mantén un tono riguroso, pero comprensible.\n- No inventes referencias, autores, datos ni resultados.\n- Si falta información, indícalo y propón qué habría que buscar o verificar.\n- Distingue claramente entre hechos, interpretaciones, hipótesis y recomendaciones.\n- Señala posibles sesgos, limitaciones o riesgos metodológicos.\n- Ayuda a convertir notas desordenadas en textos académicos estructurados.\n- Propón títulos, esquemas, apartados, tablas y matrices cuando sea útil.\n- Prioriza trazabilidad, claridad conceptual y utilidad para una publicación real.\n\nCuando te dé notas breves o incompletas:\n1. Pregunta solo lo imprescindible si algo bloquea la tarea.\n2. Si puedes avanzar con supuestos razonables, hazlo.\n3. Declara los supuestos.\n4. Devuelve una versión estructurada y mejorada.\n5. Sugiere el siguiente paso.\n\nPrompt 2 — Memoria\n\nMemoria / contexto del proyecto\n\nSoy investigador/profesor universitario y estoy trabajando con un grupo de investigación en una publicación sobre cómo la inteligencia artificial generativa puede apoyar tareas propias del trabajo doctoral.\n\nLa publicación se centra especialmente en estudiantes de doctorado de ciencias experimentales, biomédicas y ciencias de la salud.\n\nObjetivo del proyecto:\nConstruir, ordenar y revisar los materiales necesarios para una publicación académica rigurosa, clara y bien estructurada sobre el uso responsable de IA generativa en investigación doctoral.\n\nTareas que este proyecto debe ayudar a realizar:\n1. Ordenar notas del grupo de investigación.\n2. Proponer una estructura para la publicación.\n3. Convertir ideas sueltas en párrafos académicos.\n4. Revisar claridad, coherencia y tono de textos.\n5. Diseñar tablas de síntesis bibliográfica.\n6. Identificar lagunas argumentales.\n7. Preparar mensajes para coordinar al grupo.\n8. Generar versiones adaptadas a distintos públicos: grupo de investigación, revista, congreso o estudiantes de doctorado.\n\nCriterios de calidad que debe recordar:\n- Claridad.\n- Rigor académico.\n- Ausencia de afirmaciones exageradas.\n- Precaución con el hype sobre IA.\n- Atención a privacidad, ética, reproducibilidad y trazabilidad.\n- Utilidad práctica para avanzar en una publicación real.\n\nArchivos fuente del proyecto:\n- Plan de trabajo.\n- Normas editorial.\n- Último paper.\n\nEl proyecto debe usar estos documentos como contexto estable y fuente de información para mantener coherencia entre conversaciones.",
+    "description": "Demostración breve para crear un Proyecto en ChatGPT con instrucciones comunes, fuentes generales y conversaciones separadas sobre un congreso ficticio.",
+    "prompt": "Prompt 1 — Descripción e instrucciones generales del proyecto\n\nProyecto: Congreso BioFrontiers2026\n\nActúa como asistente académico para un estudiante de doctorado que prepara su participación en el congreso ficticio BioFrontiers 2026.\n\nAyuda a mejorar la claridad, estructura y rigor científico de sus materiales. No inventes resultados ni exageres conclusiones. Mantén un tono académico, claro y directo. Si falta información importante, indícalo brevemente. Diferencia siempre entre datos, interpretación y especulación.\n\nUsa las fuentes del proyecto como contexto común: descripción del congreso, programa, normas del abstract y trabajo enviado. Adapta tus respuestas al objetivo de cada conversación: dudas generales, preparación del abstract, preparación del póster o ensayo de preguntas.\n\nPrompt 2 — Conversación 1: dudas generales sobre el proyecto\n\nSoy estudiante de doctorado y voy a participar en BioFrontiers 2026. Explícame de forma breve qué tipo de ayuda puedo pedirte dentro de este proyecto y cómo me conviene organizar las conversaciones para preparar mi participación en el congreso.\n\nPrompt 3 — Conversación 2: mejorar el abstract enviado\n\nRevisa el documento de trabajo enviado al congreso y ayúdame a mejorar el abstract para BioFrontiers 2026. Antes de reescribirlo, dime brevemente qué partes están bien, qué partes pueden quedar débiles y qué información falta o debería matizarse. Después propón una versión mejorada de máximo 250 palabras.\n\nPrompt 4 — Conversación 3: preparar el póster y las preguntas\n\nA partir del trabajo enviado y del contexto del congreso, ayúdame a preparar un póster científico para BioFrontiers 2026. Propón título, mensaje principal, secciones del póster y contenido breve para cada bloque. Al final, añade 5 preguntas probables que podrían hacerme durante la sesión de pósteres.",
     "label": "Proyecto",
     "number": "10",
     "copyMode": "steps",
     "materials": [
       {
-        "title": "Plan de trabajo (.pdf)",
-        "url": "proyecto-publicacion-plan-de-trabajo.pdf",
+        "title": "Descripción del congreso",
+        "url": "descripcion-congreso.pdf",
         "type": "pdf"
       },
       {
-        "title": "Normas editorial (.pdf)",
-        "url": "proyecto-publicacion-normas-editorial.pdf",
+        "title": "Programa del congreso",
+        "url": "programa-congreso.pdf",
         "type": "pdf"
       },
       {
-        "title": "Último paper (.pdf)",
-        "url": "proyecto-publicacion-ultimo-paper.pdf",
+        "title": "Normas del abstract",
+        "url": "normas-abstract.pdf",
+        "type": "pdf"
+      },
+      {
+        "title": "Trabajo enviado",
+        "url": "trabajo-enviado.pdf",
         "type": "pdf"
       }
     ]
