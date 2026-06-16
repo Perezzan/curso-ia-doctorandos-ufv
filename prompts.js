@@ -198,35 +198,5 @@ window.PROMPTS = [
         "type": "imagen"
       }
     ]
-  },
-  {
-    "title": "Convertir paper en matriz de lectura",
-    "category": "Análisis de papers",
-    "description": "Para extraer información comparable de artículos en tesis o revisión bibliográfica.",
-    "prompt": "Convierte este paper en una matriz de lectura para mi tesis. Incluye columnas para: referencia, pregunta de investigación, objetivo, metodología, muestra o sistema estudiado, resultados principales, limitaciones, utilidad para mi trabajo, conceptos clave y dudas que debo verificar. No inventes información; si algo no aparece, indica “no especificado”.",
-    "label": "GPT",
-    "number": "12",
-    "materials": [
-      {
-        "title": "Material asociado 07",
-        "url": "#",
-        "type": "pendiente"
-      }
-    ]
-  },
-  {
-    "title": "Adaptar figura científica para diapositiva docente",
-    "category": "Figuras científicas",
-    "description": "Traduce y simplifica una imagen científica para usarla en clase.",
-    "prompt": "Adapta esta figura científica para una presentación docente en castellano.\n\nReglas fundamentales:\n- Mantén siempre el significado científico de la imagen original.\n- No inventes texto si alguna etiqueta no se lee bien.\n- Si algún elemento es ambiguo o ilegible, márcalo como [revisar].\n- Traduce al castellano académico, claro y natural.\n- Respeta la terminología científica correcta.\n\nEstructura de respuesta:\n1. Describe brevemente qué contiene la imagen.\n2. Identifica todos los textos visibles que deberían traducirse.\n3. Propón la traducción al castellano en una tabla: original / traducción.\n4. Señala elementos ambiguos o ilegibles.\n5. Propón mejoras visuales concretas.\n6. Si procede, propone una versión simplificada para diapositiva docente.\n\nTermina siempre con un bloque llamado “Prompt de edición sugerido”.",
-    "label": "prompt prueba",
-    "number": "13",
-    "materials": [
-      {
-        "title": "Material asociado 08",
-        "url": "#",
-        "type": "pendiente"
-      }
-    ]
   }
 ];
