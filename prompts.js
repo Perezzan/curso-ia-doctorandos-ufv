@@ -239,8 +239,8 @@ window.PROMPTS = [
         "type": "web"
       },
       {
-        "title": "Vídeo — A Physicist's View on Biological Membranes",
-        "url": "https://www.youtube.com/watch?v=4_7nTxPXPAQ",
+        "title": "Vídeo — Membrane biophysics",
+        "url": "https://www.youtube.com/watch?v=X_tYrnv_o6A",
         "type": "youtube"
       },
       {
