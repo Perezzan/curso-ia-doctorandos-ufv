@@ -72,8 +72,8 @@ input:focus, select:focus { border-color: var(--accent); box-shadow: 0 0 0 3px r
 
 .materials { margin-top: 1rem; border-top: 1px solid var(--line); padding-top: .9rem; }
 .materials h3 { margin: 0 0 .55rem; font-size: .92rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
-.material-link { display: flex; justify-content: space-between; align-items: center; gap: .75rem; text-decoration: none; color: var(--accent); background: #f9f5ec; border: 1px solid var(--line); border-radius: 14px; padding: .7rem .8rem; margin-top: .45rem; font-weight: 700; }
-.material-link span { color: var(--muted); font-weight: 650; font-size: .78rem; }
+.material-link { display: flex; justify-content: space-between; align-items: center; gap: .75rem; text-decoration: none; color: var(--accent); background: #f9f5ec; border: 1px solid var(--line); border-radius: 14px; padding: .7rem .8rem; margin-top: .45rem; font-weight: 700; min-width: 0; overflow-wrap: anywhere; }
+.material-link span { color: var(--muted); font-weight: 650; font-size: .78rem; flex: 0 0 auto; }
 .material-link.disabled { opacity: .55; cursor: not-allowed; }
 .step-intro { color: var(--muted); line-height: 1.5; margin: 0 0 1rem; }
 .steps { display: grid; gap: .9rem; }
