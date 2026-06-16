@@ -203,7 +203,8 @@ window.PROMPTS = [
     "title": "NotebookLM",
     "category": "NotebookLM",
     "description": "Actividad final para mostrar cómo NotebookLM permite trabajar con bibliografía, informes, páginas web y vídeos en un mismo cuaderno de investigación.",
-    "prompt": "Los prompts de esta actividad se añadirán después. De momento, usa los materiales asociados como fuentes para crear un cuaderno en NotebookLM sobre biofísica de membranas biológicas.",
+    "prompt": "Prompt 1 — Comparar dos informes\n\nCompara los dos informes cargados sobre biofísica de membranas biológicas.\n\nQuiero que identifiques:\n\n1. Qué temas aparecen en ambos documentos.\n2. Qué temas aparecen solo en uno de ellos.\n3. Diferencias en profundidad, enfoque y nivel de detalle.\n4. Diferencias en estructura y organización.\n5. Fortalezas y debilidades de cada informe.\n6. Qué informe sería más útil como punto de partida para una revisión bibliográfica.\n7. Qué informe sería más útil como material introductorio para estudiantes de doctorado.\n\nTermina con una tabla comparativa clara y una recomendación final razonada.",
+    "copyMode": "steps",
     "label": "NotebookLM",
     "number": "13",
     "materials": [
