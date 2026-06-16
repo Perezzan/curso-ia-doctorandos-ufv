@@ -198,5 +198,60 @@ window.PROMPTS = [
         "type": "imagen"
       }
     ]
+  },
+  {
+    "title": "NotebookLM",
+    "category": "NotebookLM",
+    "description": "Actividad final para mostrar cómo NotebookLM permite trabajar con bibliografía, informes, páginas web y vídeos en un mismo cuaderno de investigación.",
+    "prompt": "Los prompts de esta actividad se añadirán después. De momento, usa los materiales asociados como fuentes para crear un cuaderno en NotebookLM sobre biofísica de membranas biológicas.",
+    "label": "NotebookLM",
+    "number": "13",
+    "materials": [
+      {
+        "title": "Paper 1 — Fluctuaciones de membrana",
+        "url": "notebooklm-paper-1-membrane-fluctuations.pdf",
+        "type": "pdf"
+      },
+      {
+        "title": "Paper 2 — Tensión de membrana y osmosis",
+        "url": "notebooklm-paper-2-tension-osmosis.pdf",
+        "type": "pdf"
+      },
+      {
+        "title": "Paper 3 — Simulación mesoscópica FreeDTS",
+        "url": "notebooklm-paper-3-freedts-biomembranes.pdf",
+        "type": "pdf"
+      },
+      {
+        "title": "Paper 4 — Remodelado de membrana en adipocitos",
+        "url": "notebooklm-paper-4-adipocyte-remodeling.pdf",
+        "type": "pdf"
+      },
+      {
+        "title": "Web 1 — Molecular Expressions: Plasma Membrane",
+        "url": "https://micro.magnet.fsu.edu/cells/plasmamembrane/plasmamembrane.html",
+        "type": "web"
+      },
+      {
+        "title": "Web 2 — Deserno Lab: Biological Membranes",
+        "url": "https://www.cmu.edu/biolphys/deserno/Deserno_science.html",
+        "type": "web"
+      },
+      {
+        "title": "Vídeo — A Physicist's View on Biological Membranes",
+        "url": "https://www.youtube.com/watch?v=4_7nTxPXPAQ",
+        "type": "youtube"
+      },
+      {
+        "title": "Informe en PDF — Física de las membranas biológicas",
+        "url": "notebooklm-informe-busqueda.pdf",
+        "type": "pdf"
+      },
+      {
+        "title": "Informe en Word — Biofísica de membranas biológicas",
+        "url": "notebooklm-informe-biofisica-membranas.docx",
+        "type": "docx"
+      }
+    ]
   }
 ];
