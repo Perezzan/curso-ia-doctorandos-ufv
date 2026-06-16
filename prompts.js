@@ -254,5 +254,39 @@ window.PROMPTS = [
         "type": "docx"
       }
     ]
+  },
+  {
+    "title": "Recursos digitales",
+    "category": "Recursos",
+    "description": "Materiales complementarios para que los alumnos puedan seguir explorando NotebookLM, diseño de recursos y revisión crítica con IA.",
+    "prompt": "Estos recursos digitales quedan disponibles para descargar y utilizar después del taller.",
+    "label": "Recursos",
+    "number": "14",
+    "materials": [
+      {
+        "title": "recurso-diseño-NotebookLM",
+        "description": "Plantillas y recursos para usar en NotebookLM.",
+        "url": "recurso-diseno-notebooklm.pdf",
+        "type": "pdf"
+      },
+      {
+        "title": "Guia-NotebookLM",
+        "description": "Guía completa de uso de NotebookLM.",
+        "url": "guia-notebooklm.pdf",
+        "type": "pdf"
+      },
+      {
+        "title": "Manual_NotebookLM_Prompts_Avanzados",
+        "description": "Manual de NotebookLM para generar prompts avanzados.",
+        "url": "manual-notebooklm-prompts-avanzados.pdf",
+        "type": "pdf"
+      },
+      {
+        "title": "Prompt-ChatGPT-Modo-Abogado",
+        "description": "Prompt específico para una revisión crítica.",
+        "url": "prompt-chatgpt-modo-abogado.pdf",
+        "type": "pdf"
+      }
+    ]
   }
 ];
